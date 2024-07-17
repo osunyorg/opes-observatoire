@@ -8,4 +8,7 @@ params:
   summary:
     position: hero
   search:
-    active: true  
+    active: true
+  posts:
+    index:
+      layout: grid
