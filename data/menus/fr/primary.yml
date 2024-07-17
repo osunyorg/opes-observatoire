@@ -1,16 +1,16 @@
 ---
 title: Menu principal
 items:
+- title: Accueil
+  target: "/"
+  kind: page
+  children: []
 - title: Méthodologie
   target: "/methodologie/"
   kind: page
   children: []
 - title: Actualités
   target: "/actualites/"
-  kind: page
-  children: []
-- title: Accueil
-  target: "/"
   kind: page
   children: []
 
