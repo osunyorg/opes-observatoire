@@ -9,12 +9,12 @@ items:
   target: "/methodologie/"
   kind: page
   children: []
-- title: Actualités
-  target: "/actualites/"
-  kind: page
-  children: []
 - title: Base de données
   target: "/base-de-donnees/"
+  kind: page
+  children: []
+- title: Actualités
+  target: "/actualites/"
   kind: page
   children: []
 
