@@ -10,6 +10,8 @@ fr:
     social:
   permalinks:
     posts: /actualites/:year-:month-:day-:slug/
+    persons: /personnes/:slug/
+    persons_categories: /personnes/categories/:slug/
   taxonomies:
     administrator: administrators
     author: authors
