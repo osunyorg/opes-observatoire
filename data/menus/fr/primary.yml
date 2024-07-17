@@ -13,4 +13,8 @@ items:
   target: "/organisations/"
   kind: page
   children: []
+- title: Méthodologie
+  target: "/methodologie/"
+  kind: page
+  children: []
 
