@@ -9,9 +9,9 @@ items:
   target: "/methodologie/"
   kind: page
   children: []
-- title: Base de données
-  target: "/base-de-donnees/"
-  kind: page
+- title: Alertes
+  target: "/personnes/alertes"
+  kind: url
   children: []
 - title: Actualités
   target: "/actualites/"
