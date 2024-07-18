@@ -12,13 +12,11 @@
                         span
                             padding-left: $spacing-2
                             padding-right: $spacing-2
-    .hero 
-        .content
-            .hero-text
-                width: 100%
-                > h1, 
-                > hgroup
-                    text-align: center
-        &--with-image
-            figure
-                display: none !important
+    .hero
+        &:not(.hero--with-image)
+            .content
+                .hero-text
+                    width: 100%
+                    > h1, 
+                    > hgroup
+                        text-align: center
