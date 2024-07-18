@@ -1,8 +1,18 @@
+@keyframes eye-blink
+    0%, 3%, 40%, 44%, 46%, 49%, 100%
+        transform: scaleY(1)
+    2%, 42%, 47.5%
+        transform: scaleY(0.1)
+
 @include media-breakpoint-up(desktop)
     header#document-header
         nav 
             .logo
                 margin-bottom: $spacing-4
+                svg
+                    height: $header-logo-height
+                    @include media-breakpoint-up(desktop)
+                        height: $header-logo-height-desktop
             .container
                 flex-direction: column
             .menu
@@ -27,6 +37,13 @@
     
     footer#document-footer
         padding-top: $spacing-6
+        .logo
+            svg
+                height: $footer-logo-height
+                path
+                    fill: white
+                @include media-breakpoint-up(desktop)
+                    height: $footer-logo-height-desktop
         .container
             justify-content: center
             text-align: center
@@ -39,3 +56,12 @@
             .footer-credit
                 display: inline-block
                 padding-left: $spacing-2
+    .logo
+        svg
+            display: block
+            .eye
+                animation: eye-blink 5s infinite
+                position: relative
+                display: block
+                transform-origin: 0 1.9rem
+
