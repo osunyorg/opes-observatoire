@@ -4,15 +4,27 @@
     2%, 42%, 47.5%
         transform: scaleY(0.1)
 
+header#document-header
+    nav 
+        .logo
+            svg
+                height: $header-logo-height
+                @include media-breakpoint-up(desktop)
+                    height: $header-logo-height-desktop
+footer#document-footer
+    .logo
+        svg
+            height: $footer-logo-height
+            path
+                fill: white
+            @include media-breakpoint-up(desktop)
+                height: $footer-logo-height-desktop
 @include media-breakpoint-up(desktop)
     header#document-header
         nav 
             .logo
                 margin-bottom: $spacing-4
-                svg
-                    height: $header-logo-height
-                    @include media-breakpoint-up(desktop)
-                        height: $header-logo-height-desktop
+                max-width: 100%
             .container
                 flex-direction: column
             .menu
@@ -37,13 +49,6 @@
     
     footer#document-footer
         padding-top: $spacing-6
-        .logo
-            svg
-                height: $footer-logo-height
-                path
-                    fill: white
-                @include media-breakpoint-up(desktop)
-                    height: $footer-logo-height-desktop
         .container
             justify-content: center
             text-align: center
