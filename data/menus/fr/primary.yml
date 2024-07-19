@@ -5,6 +5,10 @@ items:
   target: "/"
   kind: page
   children: []
+- title: Manifeste
+  target: "/manifeste/"
+  kind: page
+  children: []
 - title: Méthodologie
   target: "/methodologie/"
   kind: page
@@ -15,10 +19,6 @@ items:
   children: []
 - title: Actualités
   target: "/actualites/"
-  kind: page
-  children: []
-- title: Manifeste
-  target: "/manifeste/"
   kind: page
   children: []
 
