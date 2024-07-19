@@ -17,4 +17,8 @@ items:
   target: "/actualites/"
   kind: page
   children: []
+- title: Manifeste
+  target: "/manifeste/"
+  kind: page
+  children: []
 
