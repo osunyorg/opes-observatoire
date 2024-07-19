@@ -18,6 +18,7 @@
 header#document-header
     nav 
         .container
+            justify-content: center
             margin: 0
         .logo
             margin: 0
@@ -34,6 +35,11 @@ footer#document-footer
             @include media-breakpoint-up(desktop)
                 height: $footer-logo-height-desktop
 
+.block
+    &-pages
+        &--cards 
+            .card
+                min-height: 150px
 @include media-breakpoint-up(desktop)
     header#document-header
         nav 
