@@ -1,10 +1,6 @@
 ---
 title: Menu principal
 items:
-- title: Accueil
-  target: "/"
-  kind: page
-  children: []
 - title: Manifeste
   target: "/manifeste/"
   kind: page
