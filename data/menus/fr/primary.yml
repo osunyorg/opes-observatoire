@@ -5,20 +5,24 @@ items:
   target: "/manifeste/"
   kind: page
   children: []
+  path: "/pages/manifeste"
   file: content/fr/pages/manifeste/_index.html
 - title: Méthodologie
   target: "/methodologie/"
   kind: page
   children: []
+  path: "/pages/methodologie"
   file: content/fr/pages/methodologie/_index.html
 - title: Base de données
   target: "/personnes/"
   kind: page
   children: []
+  path: "/persons"
   file: content/fr/persons/_index.html
 - title: Actualités
   target: "/actualites/"
   kind: page
   children: []
+  path: "/posts"
   file: content/fr/posts/_index.html
 
