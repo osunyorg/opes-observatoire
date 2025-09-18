@@ -1,0 +1,11 @@
+default:
+  image:
+    id: ea58823a-211a-453a-a4a8-70b6d087b145
+  shared_image:
+    id: 2181da23-a8d8-460b-90a8-e6ed9629353a
+contents_reading_time:
+  seconds: 0
+  text: >-
+    moins d'une minute
+contents:
+
