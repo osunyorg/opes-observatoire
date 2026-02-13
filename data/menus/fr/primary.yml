@@ -2,31 +2,39 @@
 title: Menu principal
 items:
 - title: Manifeste
+  slug: manifeste
   target: "/manifeste/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/manifeste"
   file: content/fr/pages/manifeste/_index.html
 - title: Méthodologie
+  slug: methodologie
   target: "/methodologie/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/pages/methodologie"
   file: content/fr/pages/methodologie/_index.html
 - title: Base de données
+  slug: base-de-donnees
   target: "/personnes/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/persons"
   file: content/fr/persons/_index.html
 - title: Actualités
+  slug: actualites
   target: "/actualites/"
   kind: page
   new_tab: false
   children: []
+  descendants_targets: []
   path: "/posts"
   file: content/fr/posts/_index.html
 
