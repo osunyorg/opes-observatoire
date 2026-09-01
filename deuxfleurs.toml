@@ -23,6 +23,10 @@ from = "/equipe/index.html"
 to = "/personnes/"
 
 [[redirects]]
+from = "/fichiers/2026/index.html"
+to = "/fichiers/2026/charteethiquedeontologie-hesge-unigepdf/"
+
+[[redirects]]
 from = "/base-de-donnees/index.html"
 to = "/personnes/"
 
